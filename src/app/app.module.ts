@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { GymServicesComponent } from './gym-services/gym-services.component';
 import { ModalitiesComponent } from './modalities/modalities.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { AboutComponent } from './about/about.component';
+import { InstallationsComponent } from './installations/installations.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [						
     AppComponent,
       GymServicesComponent,
       ModalitiesComponent,
-      ScheduleComponent
+      ScheduleComponent,
+      AboutComponent,
+      InstallationsComponent,
+      IntroComponent
    ],
   imports: [
     BrowserModule,

@@ -9,27 +9,17 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
       <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">Conceito</a>
-      <a class="nav-link" href="#modalities">Modalidades</a>
+      <a class="nav-link" routerLink="/modalities">Modalidades</a>
       <a class="nav-link" routerLink="/gym-services">Serviços</a>
-      <a class="nav-link disabled" href="#">Instalações</a>
-      <a class="nav-link disabled" href="#">Preçário</a>
+      <a class="nav-link" routerLink="/installations">Instalações</a>
       <a class="nav-link" routerLink="/schedule">Horário</a>
+      <a class="nav-link disabled" href="#">Preçário</a>
       <a class="nav-link disabled" href="#">Galeria</a>
     </div>
   </div>
 </nav>
 
-<div class="container-fluid intro">
-  <div class="row">
-    <div class="col-sm">
-      <h1 class="text-white text-center">MAKE YOU BE THE FIGHTER</h1>
-    </div>
-  </div>
-</div>
-
 <router-outlet></router-outlet>
-
 
 <footer class="footer mt-auto py-3 bg-dark text-light">
   <div class="container">
