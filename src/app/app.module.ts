@@ -9,16 +9,18 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 import { InstallationsComponent } from './installations/installations.component';
 import { IntroComponent } from './intro/intro.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
-  declarations: [						
+  declarations: [							
     AppComponent,
       GymServicesComponent,
       ModalitiesComponent,
       ScheduleComponent,
       AboutComponent,
       InstallationsComponent,
-      IntroComponent
+      IntroComponent,
+      GalleryComponent
    ],
   imports: [
     BrowserModule,
