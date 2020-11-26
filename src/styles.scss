@@ -1,6 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital,wght@0,400;1,900&display=swap');
 body {
+    font-family: 'Roboto', sans-serif;
     background-image: url("/assets/header.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    color: #ec3642;
 }
