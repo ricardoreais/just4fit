@@ -7,6 +7,7 @@ import { InstallationsComponent } from './installations/installations.component'
 import { IntroComponent } from './intro/intro.component';
 import { ModalitiesComponent } from './modalities/modalities.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 const routes: Routes = [
   { path: '', component: IntroComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'gym-services', component: GymServicesComponent },
   { path: 'schedule', component: ScheduleComponent },
   { path: 'gallery', component: GalleryComponent },
+  { path: 'pricing', component: PricingComponent },
 ];
 
 @NgModule({
